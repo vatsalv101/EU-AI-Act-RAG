@@ -1,0 +1,13 @@
+# Core
+python-dotenv==1.0.1
+pydantic==2.6.4
+
+# Data Processing & Parsing
+pandas==2.2.1
+numpy==1.26.4
+jupyter==1.0.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# LlamaIndex (Core)
+llama-index-core==0.10.20
