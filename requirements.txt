@@ -12,3 +12,8 @@ requests==2.31.0
 
 # LlamaIndex (Core)
 llama-index-core==0.10.20
+llama-index-embeddings-huggingface==0.2.0
+torch==2.2.2
+transformers==4.39.3
+qdrant-client==1.8.2
+llama-index-vector-stores-qdrant==0.1.4
