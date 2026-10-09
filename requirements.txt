@@ -11,10 +11,10 @@ lxml==5.1.0
 requests==2.31.0
 
 # LlamaIndex (Core)
-llama-index-core
-llama-index-embeddings-huggingface
+llama-index-core==0.10.24
+llama-index-embeddings-huggingface==0.2.0
 torch==2.2.2
 transformers==4.39.3
-qdrant-client
-llama-index-vector-stores-qdrant
-llama-index-llms-openai
+qdrant-client==1.8.2
+llama-index-vector-stores-qdrant==0.1.4
+llama-index-llms-openai==0.1.15
