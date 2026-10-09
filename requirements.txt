@@ -1,6 +1,6 @@
 # Core
 python-dotenv==1.0.1
-pydantic==2.6.4
+pydantic
 
 # Data Processing & Parsing
 pandas==2.2.1
@@ -11,9 +11,10 @@ lxml==5.1.0
 requests==2.31.0
 
 # LlamaIndex (Core)
-llama-index-core==0.10.20
-llama-index-embeddings-huggingface==0.2.0
+llama-index-core
+llama-index-embeddings-huggingface
 torch==2.2.2
 transformers==4.39.3
-qdrant-client==1.8.2
-llama-index-vector-stores-qdrant==0.1.4
+qdrant-client
+llama-index-vector-stores-qdrant
+llama-index-llms-openai
