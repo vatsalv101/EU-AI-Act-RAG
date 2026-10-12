@@ -1,0 +1,142 @@
+{
+  "summary": {
+    "top_k": 4,
+    "num_in_scope_queries": 6,
+    "num_out_of_scope_queries": 2,
+    "recall_at_4": 0.5,
+    "precision_at_4": 0.1805,
+    "mrr": 0.3055,
+    "avg_retrieval_latency_ms": 382.43,
+    "abstention_accuracy": 0.0
+  },
+  "details": [
+    {
+      "id": "en_01",
+      "category": "en_factual",
+      "question": "What artificial intelligence practices are prohibited under the EU AI Act?",
+      "expected_section": "Article 5",
+      "retrieved_sections": [
+        "Introduction",
+        "Introduction",
+        "Article 5",
+        "Article 79"
+      ],
+      "retrieval_latency_ms": 1753.47,
+      "answer": "LLM generation skipped (OPENAI_API_KEY not configured in .env).",
+      "recall": 1.0,
+      "precision": 0.25,
+      "rr": 0.3333
+    },
+    {
+      "id": "en_02",
+      "category": "en_compliance",
+      "question": "What are the classification rules for high-risk AI systems?",
+      "expected_section": "Article 6",
+      "retrieved_sections": [
+        "Introduction",
+        "Introduction",
+        "Article 5",
+        "Introduction"
+      ],
+      "retrieval_latency_ms": 123.09,
+      "answer": "LLM generation skipped (OPENAI_API_KEY not configured in .env).",
+      "recall": 0.0,
+      "precision": 0.0,
+      "rr": 0.0
+    },
+    {
+      "id": "en_03",
+      "category": "en_definition",
+      "question": "What is the subject matter and purpose of the EU AI Act?",
+      "expected_section": "Article 1",
+      "retrieved_sections": [
+        "Introduction",
+        "Article 66",
+        "Introduction",
+        "Introduction"
+      ],
+      "retrieval_latency_ms": 100.18,
+      "answer": "LLM generation skipped (OPENAI_API_KEY not configured in .env).",
+      "recall": 0.0,
+      "precision": 0.0,
+      "rr": 0.0
+    },
+    {
+      "id": "de_01",
+      "category": "de_factual",
+      "question": "Welche Praktiken im Bereich der künstlichen Intelligenz sind verboten?",
+      "expected_section": "Artikel 5",
+      "retrieved_sections": [
+        "Introduction",
+        "Artikel 5",
+        "Artikel 4"
+      ],
+      "retrieval_latency_ms": 116.36,
+      "answer": "LLM generation skipped (OPENAI_API_KEY not configured in .env).",
+      "recall": 1.0,
+      "precision": 0.3333,
+      "rr": 0.5
+    },
+    {
+      "id": "de_02",
+      "category": "de_compliance",
+      "question": "Welche Einstufungsvorschriften gelten für Hochrisiko-KI-Systeme?",
+      "expected_section": "Artikel 6",
+      "retrieved_sections": [
+        "Introduction",
+        "Artikel 15",
+        "Artikel 13",
+        "Introduction"
+      ],
+      "retrieval_latency_ms": 99.64,
+      "answer": "LLM generation skipped (OPENAI_API_KEY not configured in .env).",
+      "recall": 0.0,
+      "precision": 0.0,
+      "rr": 0.0
+    },
+    {
+      "id": "xling_01",
+      "category": "cross_lingual",
+      "question": "Welche KI-Praktiken sind nach der Verordnung verboten?",
+      "expected_section": "Article 5",
+      "retrieved_sections": [
+        "Article 5",
+        "Article 5",
+        "Article 4",
+        "Article 79"
+      ],
+      "retrieval_latency_ms": 101.82,
+      "answer": "LLM generation skipped (OPENAI_API_KEY not configured in .env).",
+      "recall": 1.0,
+      "precision": 0.5,
+      "rr": 1.0
+    },
+    {
+      "id": "oos_01",
+      "category": "out_of_scope",
+      "question": "What are the corporate tax rates for software startups in Bavaria under the EU AI Act?",
+      "expected_section": null,
+      "retrieved_sections": [
+        "Article 101",
+        "Article 101",
+        "Introduction"
+      ],
+      "retrieval_latency_ms": 100.57,
+      "answer": "LLM generation skipped (OPENAI_API_KEY not configured in .env).",
+      "abstained_correctly": false
+    },
+    {
+      "id": "oos_02",
+      "category": "out_of_scope",
+      "question": "How does the EU AI Act regulate autonomous space rovers operating on Mars?",
+      "expected_section": null,
+      "retrieved_sections": [
+        "Introduction",
+        "Introduction"
+      ],
+      "retrieval_latency_ms": 103.72,
+      "answer": "LLM generation skipped (OPENAI_API_KEY not configured in .env).",
+      "abstained_correctly": false
+    }
+  ]
+}

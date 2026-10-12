@@ -40,6 +40,12 @@ QA_PROMPT_TMPL = (
     "Answer: "
 )
 
+# Ensure gpt-4o and gpt-4o-mini are registered in llama-index openai model dictionary
+import llama_index.llms.openai.utils as openai_utils
+if hasattr(openai_utils, "ALL_AVAILABLE_MODELS"):
+    openai_utils.ALL_AVAILABLE_MODELS.setdefault("gpt-4o-mini", 128000)
+    openai_utils.ALL_AVAILABLE_MODELS.setdefault("gpt-4o", 128000)
+
 class AIActRAG:
     def __init__(self, top_k: int = 4):
         # 1. Initialize the LLM (gpt-4o-mini is fast, cheap, and excellent at following prompt constraints)

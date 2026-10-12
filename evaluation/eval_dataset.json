@@ -1,0 +1,74 @@
+[
+  {
+    "id": "en_01",
+    "category": "en_factual",
+    "language": "en",
+    "filter_language": "en",
+    "question": "What artificial intelligence practices are prohibited under the EU AI Act?",
+    "expected_section": "Article 5",
+    "ground_truth": "Article 5 prohibits AI practices such as subliminal manipulation causing significant harm, exploiting vulnerabilities of specific groups (age, disability), social scoring by public authorities, and untargeted scraping of facial images for facial recognition databases."
+  },
+  {
+    "id": "en_02",
+    "category": "en_compliance",
+    "language": "en",
+    "filter_language": "en",
+    "question": "What are the classification rules for high-risk AI systems?",
+    "expected_section": "Article 6",
+    "ground_truth": "Under Article 6, an AI system is considered high-risk if it is intended to be used as a safety component of a product covered by Union harmonisation legislation (Annex I) and requires third-party conformity assessment, or if it falls under the standalone high-risk use cases listed in Annex III."
+  },
+  {
+    "id": "en_03",
+    "category": "en_definition",
+    "language": "en",
+    "filter_language": "en",
+    "question": "What is the subject matter and purpose of the EU AI Act?",
+    "expected_section": "Article 1",
+    "ground_truth": "Article 1 states that the purpose of this Regulation is to improve the functioning of the internal market and promote the uptake of human-centric and trustworthy artificial intelligence while ensuring a high level of protection of health, safety, and fundamental rights."
+  },
+  {
+    "id": "de_01",
+    "category": "de_factual",
+    "language": "de",
+    "filter_language": "de",
+    "question": "Welche Praktiken im Bereich der künstlichen Intelligenz sind verboten?",
+    "expected_section": "Artikel 5",
+    "ground_truth": "Gemäß Artikel 5 sind bestimmte KI-Praktiken verboten, darunter unterschwellige Beeinflussung, die Ausnutzung der Schutzbedürftigkeit bestimmter Personengruppen, Social Scoring sowie das ungezielte Auslesen von Gesichtsbildern aus dem Internet."
+  },
+  {
+    "id": "de_02",
+    "category": "de_compliance",
+    "language": "de",
+    "filter_language": "de",
+    "question": "Welche Einstufungsvorschriften gelten für Hochrisiko-KI-Systeme?",
+    "expected_section": "Artikel 6",
+    "ground_truth": "Nach Artikel 6 gilt ein KI-System als Hochrisiko-KI-System, wenn es ein Sicherheitsbauteil eines unter Anhang I fallenden Produkts ist und einer Konformitätsbewertung durch Dritte unterliegt, oder wenn es unter die in Anhang III genannten Bereiche fällt."
+  },
+  {
+    "id": "xling_01",
+    "category": "cross_lingual",
+    "language": "de",
+    "filter_language": "en",
+    "question": "Welche KI-Praktiken sind nach der Verordnung verboten?",
+    "expected_section": "Article 5",
+    "ground_truth": "Article 5 outlines prohibited AI practices including manipulative techniques, exploitation of vulnerabilities, social scoring, and untargeted scraping of facial images."
+  },
+  {
+    "id": "oos_01",
+    "category": "out_of_scope",
+    "language": "en",
+    "filter_language": "en",
+    "question": "What are the corporate tax rates for software startups in Bavaria under the EU AI Act?",
+    "expected_section": null,
+    "ground_truth": "I cannot answer this based on the retrieved legal context."
+  },
+  {
+    "id": "oos_02",
+    "category": "out_of_scope",
+    "language": "en",
+    "filter_language": "en",
+    "question": "How does the EU AI Act regulate autonomous space rovers operating on Mars?",
+    "expected_section": null,
+    "ground_truth": "I cannot answer this based on the retrieved legal context."
+  }
+]
