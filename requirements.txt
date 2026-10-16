@@ -22,3 +22,6 @@ llama-index-llms-openai==0.1.15
 # Evaluation
 ragas==0.1.7
 datasets==2.18.0
+
+# Reranking
+sentence-transformers==2.6.1
